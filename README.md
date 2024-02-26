@@ -14,3 +14,28 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+### Hi there, this is Nicole Tu! 👋 
+
+[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/Nicole-Tu97)
+[![](https://img.shields.io/badge/LinkedIn-NicoleTu-blue)](https://www.linkedin.com/in/yejun-tu-453b7414b/)
+[![](https://img.shields.io/badge/Gmail-yejun.tu1202%40gmail.com-red)](yejun.tu1202@gmail.com)
+
+Welcome to my Github page! My name is Nicole Tu, and I'm currently a Master of Data Science student at the University of British Columbia (graduating in June 2024). Prior to this, I have worked as a Business Intelligence Analyst and a Senior Account Executive for around 3 years in China.
+
+### Github Stats
+
+[![Nicole Tu‘s GitHub Stats](https://github-readme-stats.vercel.app/api?username=nicole-tu97&show_icons=true&count_private=true&theme=radical)](https://github.com/Nicole-Tu97)
+
+### Repositories
+
+**Practical projects I have worked on:**
+
+- Developed classification models for SpaceX to predicte if the Falcon 9 first stage will land successfully  - [IBM-DataScience-Capstone](https://github.com/Nicole-Tu97/IBM-DS-Capstone)
+
+- Developed NWHL player performance evaluation models with optimized team combination suggestions in Rotman School of Management 2023 Summer Datathon - [Datathon_Bronze_Winner](https://github.com/Nicole-Tu97/Datathon_Bronze_Winner)
+
+<img src="https://github.com/Nicole-Tu97/Datathon_Bronze_Winner/blob/main/docs/award%20image.png" width="300px">
+
+<br />
+
+
