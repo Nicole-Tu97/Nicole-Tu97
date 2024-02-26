@@ -38,4 +38,9 @@ Welcome to my Github page! My name is Nicole Tu, and I'm currently a Master of D
 
 <br />
 
+**Academic Data Science projects:**
+
+- Developed a financial_analyzer package which has the goal of helping users solve various finance based problems related to accounting and business operations. - [view](https://github.com/Nicole-Tu97/financial_analyzer)
+
+- Developed the machine learning model to predict Portugal white wine quality rating (on scale 0-10) through the physicochemical properties of the test wine. - [view](https://github.com/Nicole-Tu97/portugal_white_wine_quality_predictor_py)
 
