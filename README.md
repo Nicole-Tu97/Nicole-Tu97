@@ -7,7 +7,7 @@
 Welcome to my Github page!
 
 I've navigated through various roles to where I am today:
-### Investment Banking | Business Intelligence | Digital Consulting | Data Science
+#### Investment Banking | Business Intelligence | Digital Consulting | Data Science
 
 ## 🛠️ Featured Projects
 
