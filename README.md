@@ -7,7 +7,7 @@
 Welcome to my Github page!
 
 I've navigated through various roles to where I am today:
-### Investment Banking | Business Intelligence | Digital Consulting | Data Science
+### Financial Economics | Business Intelligence | Digital Consulting | Data Science
 
 ## 🛠️ Featured Projects
 
@@ -16,16 +16,18 @@ Throughout my career, I've led and contributed to transformative projects in var
 #### Falcon 9 landing Prediction
 - Developed classification models for SpaceX to predicte if the Falcon 9 first stage will land successfully  - [IBM-DataScience-Capstone](https://github.com/Nicole-Tu97/IBM-DS-Capstone)
 
-#### NWHL Game Strategy Recommendation
-- Developed NWHL player performance evaluation models with optimized team combination suggestions in Rotman School of Management 2023 Summer Datathon - [Datathon_Bronze_Winner](https://github.com/Nicole-Tu97/Datathon_Bronze_Winner)
-
-<img src="https://github.com/Nicole-Tu97/Datathon_Bronze_Winner/blob/main/docs/award%20image.png" width="300px">
-
 #### Financial Analyzer Package Development
 - Developed a financial_analyzer package which has the goal of helping users solve various finance based problems related to accounting and business operations. - [view](https://github.com/Nicole-Tu97/financial_analyzer)
 
 #### Portugal Wine Quality Prediction
 - Developed the machine learning model to predict Portugal white wine quality rating (on scale 0-10) through the physicochemical properties of the test wine. - [view](https://github.com/Nicole-Tu97/portugal_white_wine_quality_predictor_py)
+
+#### NWHL Game Strategy Recommendation
+- Developed NWHL player performance evaluation models with optimized team combination suggestions in Rotman School of Management 2023 Summer Datathon - [Datathon_Bronze_Winner](https://github.com/Nicole-Tu97/Datathon_Bronze_Winner)
+
+<img src="https://github.com/Nicole-Tu97/Datathon_Bronze_Winner/blob/main/docs/award%20image.png" width="300px">
+
+These projects represent part of my journey at the intersection of data science, business intelligence, Finance and strategic insights.
 
 ## 🌐 What I Know
 
@@ -59,3 +61,10 @@ Throughout my career, I've led and contributed to transformative projects in var
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
+### Skills Highlight
+
+- **Technical Proficiency**: Advanced in machine learning, data analytics, and financial modeling.
+- **Innovative Problem-Solving**: Employed analytical approaches to solve complex challenges.
+- **Effective Communication**: Ensured alignment across teams by articulating complex concepts clearly.
+- **Leadership and Team Management**: Successfully led cross-functional teams towards common goals.
+- **Strategic Planning and Execution**: Developed and implemented strategies driving business growth.
