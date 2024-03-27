@@ -27,7 +27,7 @@ Throughout my career, I've led and contributed to transformative projects in var
 
 <img src="https://github.com/Nicole-Tu97/Datathon_Bronze_Winner/blob/main/docs/award%20image.png" width="300px">
 
-These projects represent part of my journey at the intersection of data science, business intelligence, Finance and strategic insights.
+These projects represent part of my journey at the intersection of data science, business intelligence, finance and strategic insights.
 
 ## 🌐 What I Know
 
