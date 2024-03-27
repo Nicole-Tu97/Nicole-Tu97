@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/LinkedIn-NicoleTu-blue)](https://www.linkedin.com/in/yejun-tu-453b7414b/)
 [![](https://img.shields.io/badge/Gmail-yejun.tu1202%40gmail.com-red)](yejun.tu1202@gmail.com)
 
-Welcome to my Github page!
+Welcome to my Github page. It's a pleasure to meet you!
 
 I've navigated through various roles to where I am today:
 ### Financial Economics | Business Intelligence | Digital Consulting | Data Science
