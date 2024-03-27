@@ -1,30 +1,17 @@
-<!--
-**Nicole-Tu97/Nicole-Tu97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-### Hi there, this is Nicole Tu! 👋 
+# Hi there, this is Nicole Tu! 👋 
 
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/Nicole-Tu97)
 [![](https://img.shields.io/badge/LinkedIn-NicoleTu-blue)](https://www.linkedin.com/in/yejun-tu-453b7414b/)
 [![](https://img.shields.io/badge/Gmail-yejun.tu1202%40gmail.com-red)](yejun.tu1202@gmail.com)
 
 Welcome to my Github page!
+
 I've navigated through various roles to where I am today:
 ### Investment Banking | Business Intelligence | Digital Consulting | Data Science
 
 ## 🛠️ Featured Projects
 
-### Practical projects I have worked on:**
+Throughout my career, I've led and contributed to transformative projects in various industries, demonstrating a blend of technical prowess and leadership.
 
 #### Falcon 9 landing Prediction
 - Developed classification models for SpaceX to predicte if the Falcon 9 first stage will land successfully  - [IBM-DataScience-Capstone](https://github.com/Nicole-Tu97/IBM-DS-Capstone)
