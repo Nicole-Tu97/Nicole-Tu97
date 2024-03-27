@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--
 **Nicole-Tu97/Nicole-Tu97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -20,24 +18,26 @@ Here are some ideas to get you started:
 [![](https://img.shields.io/badge/LinkedIn-NicoleTu-blue)](https://www.linkedin.com/in/yejun-tu-453b7414b/)
 [![](https://img.shields.io/badge/Gmail-yejun.tu1202%40gmail.com-red)](yejun.tu1202@gmail.com)
 
-Welcome to my Github page! My name is Nicole Tu, and I'm currently a Master of Data Science student at the University of British Columbia (graduating in June 2024). Prior to this, I have worked as a Business Intelligence Analyst and a Senior Account Executive for around 3 years in China.
+Welcome to my Github page!
+I've navigated through various roles to where I am today:
+### Investment Banking | Business Intelligence | Digital Consulting | Data Science
 
-### Repositories
+## 🛠️ Featured Projects
 
-**Practical projects I have worked on:**
+### Practical projects I have worked on:**
 
+#### Falcon 9 landing Prediction
 - Developed classification models for SpaceX to predicte if the Falcon 9 first stage will land successfully  - [IBM-DataScience-Capstone](https://github.com/Nicole-Tu97/IBM-DS-Capstone)
 
+#### NWHL Game Strategy Recommendation
 - Developed NWHL player performance evaluation models with optimized team combination suggestions in Rotman School of Management 2023 Summer Datathon - [Datathon_Bronze_Winner](https://github.com/Nicole-Tu97/Datathon_Bronze_Winner)
 
 <img src="https://github.com/Nicole-Tu97/Datathon_Bronze_Winner/blob/main/docs/award%20image.png" width="300px">
 
-<br />
-
-**Academic Data Science projects:**
-
+#### Financial Analyzer Package Development
 - Developed a financial_analyzer package which has the goal of helping users solve various finance based problems related to accounting and business operations. - [view](https://github.com/Nicole-Tu97/financial_analyzer)
 
+#### Portugal Wine Quality Prediction
 - Developed the machine learning model to predict Portugal white wine quality rating (on scale 0-10) through the physicochemical properties of the test wine. - [view](https://github.com/Nicole-Tu97/portugal_white_wine_quality_predictor_py)
 
 ## 🌐 What I Know
