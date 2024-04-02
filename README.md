@@ -13,6 +13,9 @@ I've navigated through various roles to where I am today:
 
 Throughout my career, I've led and contributed to transformative projects in various industries, demonstrating a blend of technical prowess and leadership.
 
+#### The Big Mac Dashboard
+- Developed BigMac Dashboard utilizing dash in python which provides interactive visual insights into the purchasing power parity (PPP) and economic trends globally using the Big Mac Index and minimum wage data.  - [The_BigMac_Dashboard](https://github.com/UBC-MDS/DSCI-532_2024_12_bigmac.git)
+- 
 #### Falcon 9 landing Prediction
 - Developed classification models for SpaceX to predicte if the Falcon 9 first stage will land successfully  - [IBM-DataScience-Capstone](https://github.com/Nicole-Tu97/IBM-DS-Capstone)
 
