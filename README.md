@@ -7,7 +7,7 @@
 Welcome to my Github page. It's a pleasure to meet you!
 
 I've navigated through various roles to where I am today:
-### Business Intelligence | Digital Consulting | Data Science
+### Data Science | Business Intelligence | Digital Consulting
 
 ## 🛠️ Featured Projects
 
