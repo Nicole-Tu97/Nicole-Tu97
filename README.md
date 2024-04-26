@@ -10,8 +10,6 @@ I've navigated through various roles to where I am today:
 ### Data Science | Business Intelligence | Digital Consulting
 
 ## 🛠️ Featured Projects
-
-Throughout my career, I've led and contributed to transformative projects in various industries, demonstrating a blend of technical prowess and leadership.
   
 #### Falcon 9 landing Prediction
 - Developed classification models for SpaceX to predicte if the Falcon 9 first stage will land successfully  - [view](https://github.com/Nicole-Tu97/IBM-DS-Capstone)
@@ -30,7 +28,7 @@ Throughout my career, I've led and contributed to transformative projects in var
 
 <img src="https://github.com/Nicole-Tu97/Datathon_Bronze_Winner/blob/main/docs/award%20image.png" width="300px">
 
-These projects represent part of my journey at the intersection of data science, business intelligence, finance and strategic insights.
+These projects represent part of my journey at the intersection of data science, business intelligence, and strategic insights.
 
 ## 🌐 What I Know
 
@@ -66,8 +64,8 @@ These projects represent part of my journey at the intersection of data science,
 
 ### Skills Highlight
 
-- **Technical Proficiency**: Advanced in machine learning, data analytics, and financial modeling.
+- **Technical Proficiency**: Advanced in data analytics, machine learning, and statistical modeling.
 - **Innovative Problem-Solving**: Employed analytical approaches to solve complex challenges.
-- **Effective Communication**: Ensured alignment across teams by articulating complex concepts clearly.
-- **Leadership and Team Management**: Successfully led cross-functional teams towards common goals.
-- **Strategic Planning and Execution**: Developed and implemented strategies driving business growth.
+- **Effective Communication**: Ensured alignment across teams by articulating complex concepts clearly and solve potential conflicts.
+- **Team collaboration**: Successfully worked with cross-functional teams towards common goals.
+- **Strategic Planning and Execution**: Developed and implemented data-driven strategies driving business growth.
