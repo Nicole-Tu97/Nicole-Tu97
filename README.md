@@ -27,7 +27,15 @@ I'm a data scientist with about five years in finance, and I really enjoy this w
 - **Currently exploring** — reinforcement learning (RL)
 - **Certificates** — AWS Certified Cloud Practitioner · IBM Data Science Professional
 
-## 📌 Featured Project
+## 📌 Featured Projects
+
+### [LLM Validation Harness — challenging a grounded banking assistant](https://github.com/Nicole-Tu97/llm-validation-harness)
+`Python · LLM · model risk`
+
+A reproducible harness that validates an LLM assistant the way a second-line model-risk team would: hallucination and unsupported-number detection, abstention, reproducibility, paraphrase robustness, confidence calibration (ECE), persona-swap fairness, PII-leak probes, and prompt-injection attacks — each with a pre-registered pass/fail threshold, benchmarked champion-vs-challenger, ending in a written validation report.
+
+- Caught the unguarded configuration hallucinating **70%** of out-of-scope questions, **leaking PII on 40%** of probes, complying with **1 in 3** injection attacks, and quoting **different fees to different personas**.
+- Fully deterministic (hash-seeded, byte-identical runs) and runs with no API key; the same code validates a real Claude model with `USE_LLM=1`.
 
 ### [Credit-Decision PD Model — a governed, AI-augmented ML workflow](https://github.com/Nicole-Tu97/credit-risk-ml-sample)
 `Python · scikit-learn · SHAP · LLM`
@@ -45,9 +53,15 @@ An end-to-end probability-of-default model built with the validation, fairness c
 
 ## 💼 Experience
 
-- **Quantitative Researcher, Data Science · Deepcoin** · 2024 – Present
-- **Quantitative Analyst · CITIC Securities** · 2020 – 2023
+**Quantitative Researcher, Data Science · Deepcoin** · 2024 – Present
+- Built market-neutral systematic strategies end to end (research, backtesting, live trading), including a ~$2M basis-arbitrage book at **2.93 Sharpe** with 0.88% max drawdown, plus on-chain rate-derivative and prediction-market strategies.
+- Owned the ML defense layer of a live ETH/USDT market-making system: trained and deployed directional-drift, order-cancellation, and spread-widening classifiers (**0.81–0.84 AUC**; 84.9% capture of toxic flow).
+- Built the surrounding real-time infrastructure (data pipelines, backtesting framework, risk controls, P&L and exposure monitoring) and an **LLM-driven correlation-mining engine** over ~2,000 markets (~98× speedup).
 
+**Quantitative Analyst, Data Science · CITIC Securities** · 2020 – 2023
+- Engineered hundreds of alpha factors (momentum, reversal, volatility, liquidity, order-flow) across the A-share universe, and ran factor mining end to end — IC/IR, turnover, decay, orthogonalization — into a reusable factor library.
+- Built **factor-combination models (XGBoost, logistic/linear regression)** to predict short-horizon cross-sectional returns.
+- Built large-scale market-data pipelines (price/volume, fundamentals, tick/order-book) with automated data-quality checks, and presented factor research to portfolio managers to support allocation decisions.
 
 ## 🎓 Education
 - **MSc, Data Science** — University of British Columbia · 2023–2024
