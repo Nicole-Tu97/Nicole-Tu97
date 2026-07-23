@@ -2,14 +2,20 @@
 
 **Data Scientist · Machine Learning in Finance**
 
-Data scientist with ~5 years applying machine learning across the finance industry — turning data into models that drive real impact. I'm genuinely passionate about data: I love the full arc of a problem, from framing it to building, validating, and shipping a model that actually moves the needle. 
+Data scientist with ~5 years applying machine learning across the finance industry — turning data into models that drive **real business impact**. I'm genuinely passionate about data, machine learning, and **deep learning**: I love the full arc of a problem, from framing it to building, validating, and shipping a model that actually moves the needle. Lately I'm especially drawn to **reinforcement learning**, which I'm actively exploring.
 
 📍 Vancouver, Canada · open to Toronto & remote
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 
 ## 🚀 What I do
 - Build & validate **ML models end-to-end** — data → features → modeling → validation → deployment
-- Apply ML across **financial problems**: credit & risk modeling, forecasting, and data-driven strategy
+- Use **data science to solve financial problems** — from risk modeling to optimizing profit
+- Build the **risk controls and real-time trade monitoring** around live models — exposure, P&L, and drawdown safeguards
 - Care about **impact and rigor** — models that are accurate, calibrated, fair, and defensible, not just built
 
 ## 🛠️ Skills
@@ -39,10 +45,15 @@ An end-to-end **probability-of-default** model built the way a real, defensible 
 
 ## 💼 Experience
 
-**Quantitative Researcher · Deepcoin** · 2024 – Present
+**Quantitative Researcher, Data Science · Deepcoin** · 2024 – Present
+- Built market-neutral systematic strategies end to end (research, backtesting, live trading), including a ~$2M basis-arbitrage book at **2.93 Sharpe** with 0.88% max drawdown, plus on-chain rate-derivative and prediction-market strategies.
+- Owned the ML defense layer of a live ETH/USDT market-making system: trained and deployed directional-drift, order-cancellation, and spread-widening classifiers (**0.81–0.84 AUC**; 84.9% capture of toxic flow).
+- Built the surrounding real-time infrastructure (data pipelines, backtesting framework, risk controls, P&L and exposure monitoring) and an **LLM-driven correlation-mining engine** over ~2,000 markets (~98× speedup).
 
-**Quantitative Analyst · CITIC Securities** · 2020 – 2023
-
+**Quantitative Analyst, Data Science · CITIC Securities** · 2020 – 2023
+- Engineered hundreds of alpha factors (momentum, reversal, volatility, liquidity, order-flow) across the A-share universe, and ran factor mining end to end — IC/IR, turnover, decay, orthogonalization — into a reusable factor library.
+- Built **factor-combination models (XGBoost, logistic/linear regression)** to predict short-horizon cross-sectional returns.
+- Built large-scale market-data pipelines (price/volume, fundamentals, tick/order-book) with automated data-quality checks, and presented factor research to portfolio managers to support allocation decisions.
 
 ## 🎓 Education
 - **MSc, Data Science** — University of British Columbia · 2023–2024
