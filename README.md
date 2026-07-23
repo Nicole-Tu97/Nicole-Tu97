@@ -18,10 +18,10 @@ Data scientist with ~5 years applying machine learning across the finance indust
 - Care about **impact and rigor** — models that are accurate, calibrated, fair, and defensible, not just built
 
 ## 🛠️ Skills
-- **Languages** — Python, SQL, R, C++
-- **ML / modeling** — scikit-learn, XGBoost, LightGBM, SHAP, statsmodels, CVXPY, NumPy, pandas, Polars
+- **Languages** — Python, SQL, R, C++, Rust, Go, Java
+- **ML / modeling** — scikit-learn, XGBoost, LightGBM, statsmodels, SciPy, SHAP, CVXPY, Numba, NumPy, pandas, Polars
 - **Deep learning** — PyTorch, neural networks
-- **Data** — PostgreSQL, MySQL, Redshift, MongoDB · Matplotlib, Plotly, Jupyter
+- **Data** — PostgreSQL, MySQL, IBM Db2, Redshift, MongoDB · Matplotlib, Plotly, Jupyter
 - **Focus areas** — predictive & risk modeling, model validation & governance, feature engineering, time-series, LLM/AI tooling
 - **Currently exploring** — reinforcement learning (RL)
 - **Certificates** — AWS Certified Cloud Practitioner · IBM Data Science Professional
@@ -42,15 +42,17 @@ An end-to-end **probability-of-default** model built the way a real, defensible 
 - Fairness across sex / age / education · SHAP explainability · documented failure modes.
 - LLM adverse-action layer constrained to the model's **real** risk drivers; governance mapped to **OSFI E-23** and **FCAC**.
 
-## 💼 Experience — 5 years of ML in finance
+## 💼 Experience
 
-**Deepcoin** · Machine Learning / Data Science · 2024 – Present
-- Built and validated **ML models that drive live decisions** (predictive classifiers, 0.81–0.84 AUC) and the risk-control, monitoring, and data pipelines around them; built **LLM / agentic analytical tooling**.
-- Developed **data-driven strategies delivering measurable, risk-managed impact** — e.g., a live book at a **2.93 Sharpe with <1% drawdown**.
+**Quantitative Researcher · Deepcoin** · 2024 – Present
+- Built market-neutral systematic strategies end to end (research, backtesting, live trading), including a ~$2M basis-arbitrage book at **2.93 Sharpe** with 0.88% max drawdown, plus on-chain rate-derivative and prediction-market strategies.
+- Owned the ML defense layer of a live ETH/USDT market-making system: trained and deployed directional-drift, order-cancellation, and spread-widening classifiers (**0.81–0.84 AUC**; 84.9% capture of toxic flow).
+- Built the surrounding real-time infrastructure (data pipelines, backtesting framework, risk controls, P&L and exposure monitoring) and an **LLM-driven correlation-mining engine** over ~2,000 markets (~98× speedup).
 
-**CITIC Securities** · Data Science / Quantitative Research · 2020 – 2023
-- Built hundreds of predictive features and **ML models (XGBoost)** for equity return prediction across the A-share market, with end-to-end validation (IC/IR, decay) and a reusable modeling framework.
-- Built large market-data pipelines in **SQL & pandas** and presented model-driven insights to portfolio managers to inform decisions.
+**Quantitative Analyst · CITIC Securities** · 2020 – 2023
+- Engineered hundreds of alpha factors (momentum, reversal, volatility, liquidity, order-flow) across the A-share universe, and ran factor mining end to end — IC/IR, turnover, decay, orthogonalization — into a reusable factor library.
+- Built **factor-combination models (XGBoost, logistic/linear regression)** to predict short-horizon cross-sectional returns.
+- Built large-scale market-data pipelines (price/volume, fundamentals, tick/order-book) with automated data-quality checks, and presented factor research to portfolio managers to support allocation decisions.
 
 ## 🎓 Education
 - **MSc, Data Science** — University of British Columbia · 2023–2024
