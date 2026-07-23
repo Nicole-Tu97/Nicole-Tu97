@@ -2,7 +2,7 @@
 
 **Data Scientist · Machine Learning in Finance**
 
-Data scientist with ~5 years applying machine learning across the finance industry — turning data into models that drive **real business impact**. I'm genuinely passionate about data, machine learning, and **deep learning**: I love the full arc of a problem, from framing it to building, validating, and shipping a model that actually moves the needle. Lately I'm especially drawn to **reinforcement learning**, which I'm actively exploring.
+I'm a data scientist with about five years in finance, and I really enjoy this work. I build and validate machine-learning models and own them end to end: framing the problem, building the model, checking it holds up in production, and seeing it drive real decisions. I also work with deep learning (PyTorch), and lately I've been getting into reinforcement learning.
 
 📍 Vancouver, Canada · open to Toronto & remote
 
@@ -32,7 +32,7 @@ Data scientist with ~5 years applying machine learning across the finance indust
 ### [Credit-Decision PD Model — a governed, AI-augmented ML workflow](https://github.com/Nicole-Tu97/credit-risk-ml-sample)
 `Python · scikit-learn · SHAP · LLM`
 
-An end-to-end **probability-of-default** model built the way a real, defensible risk function should be — not just a classifier, but validation, fairness, explainability, failure-mode analysis, and an AI-augmented adverse-action layer, with governance documented up front. (Public UCI data — nothing proprietary.)
+An end-to-end probability-of-default model built with the validation, fairness checks, SHAP explainability, failure-mode analysis, LLM adverse-action layer, and up-front governance a credit-risk function actually needs. Public UCI data, nothing proprietary.
 
 | Model | AUC | Gini | KS | Brier | PSI |
 |---|--:|--:|--:|--:|--:|
@@ -63,5 +63,3 @@ An end-to-end **probability-of-default** model built the way a real, defensible 
 - 📧 [yejun.tu1202@gmail.com](mailto:yejun.tu1202@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/yejun-tu-453b7414b/)
 - 📍 Vancouver, BC — open to Vancouver / Toronto / remote
-
-*Passionate about data, machine learning, and building models that make a real impact in finance.*
