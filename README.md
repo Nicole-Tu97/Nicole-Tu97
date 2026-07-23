@@ -2,7 +2,7 @@
 
 **Machine Learning & Data Science in Finance**
 
-Data scientist with ~5 years applying machine learning across the finance industry — turning data into models that drive **real business impact**. I'm genuinely passionate about data, machine learning, and **deep learning**: I love the full arc of a problem, from framing it to building, validating, and shipping a model that actually moves the needle. Lately I'm especially drawn to **reinforcement learning**, which I'm actively exploring.
+Data scientist with ~5 years applying machine learning across the finance industry — turning data into models that drive **real business impact**. I'm genuinely passionate about data, machine learning, and **deep learning**: I love the full arc of a problem, from framing it to building, validating, and shipping a model that actually moves the needle. 
 
 📍 Vancouver, Canada · open to Toronto & remote
 
