@@ -45,9 +45,8 @@ An end-to-end probability-of-default model built with the validation, fairness c
 
 ## 💼 Experience
 
-**Quantitative Researcher, Data Science · Deepcoin** · 2024 – Present
-
-**Quantitative Analyst · CITIC Securities** · 2020 – 2023
+- **Quantitative Researcher, Data Science · Deepcoin** · 2024 – Present
+- **Quantitative Analyst · CITIC Securities** · 2020 – 2023
 
 
 ## 🎓 Education
