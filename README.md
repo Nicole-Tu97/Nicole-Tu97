@@ -42,11 +42,11 @@ An end-to-end **probability-of-default** model built the way a real, defensible 
 
 ## 💼 Experience — 5 years of ML in finance
 
-**Deepcoin** · Machine Learning / Data Science · 2024 – Present
+**Deepcoin** · Machine Learning / Quantitative Research · 2024 – Present
 - Built and validated **ML models that drive live decisions** (predictive classifiers, 0.81–0.84 AUC) and the risk-control, monitoring, and data pipelines around them; built **LLM / agentic analytical tooling**.
 - Developed **data-driven strategies delivering measurable, risk-managed impact** — e.g., a live book at a **2.93 Sharpe with <1% drawdown**.
 
-**CITIC Securities** · Data Science / Quantitative Research · 2020 – 2023
+**CITIC Securities** · Data Science / Quantitative Analysis · 2020 – 2023
 - Built hundreds of predictive features and **ML models (XGBoost)** for equity return prediction across the A-share market, with end-to-end validation (IC/IR, decay) and a reusable modeling framework.
 - Built large market-data pipelines in **SQL & pandas** and presented model-driven insights to portfolio managers to inform decisions.
 
