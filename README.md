@@ -34,7 +34,7 @@ I'm a data scientist with about five years in finance, and I really enjoy this w
 
 A reproducible harness that validates an LLM assistant the way a second-line model-risk team would: hallucination and unsupported-number detection, abstention, reproducibility, paraphrase robustness, confidence calibration (ECE), persona-swap fairness, PII-leak probes, and prompt-injection attacks — each with a declared pass/fail threshold, benchmarked champion-vs-challenger, ending in a written validation report.
 
-- **Validated a real Claude (Haiku) model** across 9 controls: a strict grounding prompt cleared all of them, while a weakened prompt made the *same* model **leak PII on 46%** of probes and comply with more injection attacks — so the harness catches real, prompt-induced risk *without* false-alarming a good model.
+- **Validated a real Claude (Haiku) model** across 9 controls: a strict grounding prompt cleared all of them (0 PII leaks, all 22 injection attacks resisted), while a weakened prompt made the *same* model **leak PII on 50% of probes** and slip below the hallucination, reproducibility, and robustness gates — the harness catches real, prompt-induced risk *without* false-alarming a good model.
 - Nine checks (133 items) with declared thresholds and champion-vs-challenger benchmarking; deterministic value-based scoring that runs with no API key, or against a live model via `USE_LLM=1`.
 
 ### [Credit-Decision PD Model — a governed, AI-augmented ML workflow](https://github.com/Nicole-Tu97/credit-risk-ml-sample)
