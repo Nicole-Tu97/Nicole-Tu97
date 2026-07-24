@@ -53,14 +53,8 @@ An end-to-end probability-of-default model built with the validation, fairness c
 ## 💼 Experience
 
 **Quantitative Researcher, Data Science · Deepcoin** · 2024 – Present
-- Built market-neutral systematic strategies end to end (research, backtesting, live trading), including a ~$2M basis-arbitrage book at **2.93 Sharpe** with 0.88% max drawdown, plus on-chain rate-derivative and prediction-market strategies.
-- Built and validated the ML layer of an ETH/USDT market-making system: directional-drift, order-cancellation, and spread-widening classifiers (**0.81–0.84 AUC**; 84.9% toxic-flow capture), out-of-sample tested before deployment.
-- Built the surrounding real-time infrastructure (data pipelines, backtesting framework, risk controls, P&L and exposure monitoring) and an **LLM-driven correlation-mining engine** over ~2,000 markets (~98× speedup).
 
 **Quantitative Analyst, Data Science · CITIC Securities** · 2020 – 2023
-- Engineered hundreds of alpha factors (momentum, reversal, volatility, liquidity, order-flow) across the A-share universe, and ran factor mining end to end — IC/IR, turnover, decay, orthogonalization — into a reusable factor library.
-- Built **factor-combination models (XGBoost, logistic/linear regression)** to predict short-horizon cross-sectional returns.
-- Built large-scale market-data pipelines (price/volume, fundamentals, tick/order-book) with automated data-quality checks, and presented factor research to portfolio managers to support allocation decisions.
 
 ## 🎓 Education
 - **MSc, Data Science** — University of British Columbia · 2023–2024
