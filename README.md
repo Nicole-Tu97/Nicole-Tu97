@@ -33,7 +33,7 @@ I'm a data scientist with five years in finance. I build and validate machine-le
 
 A reproducible harness that validates an LLM assistant against nine model-risk checks: hallucination and unsupported-number detection, abstention, reproducibility, paraphrase robustness, confidence calibration (ECE), persona-swap fairness, PII-leak probes, and prompt-injection attacks — each with a declared pass/fail threshold, benchmarked champion-vs-challenger, and a written validation report.
 
-- **Validated a real Claude (Haiku) model** across 9 controls: a strict grounding prompt cleared all of them (0 PII leaks, all 22 injection attacks resisted), while a weakened prompt made the *same* model **leak PII on 50% of probes** and slip below the hallucination, reproducibility, and robustness gates — the harness catches real, prompt-induced risk *without* false-alarming a good model.
+- **Validated a real Claude (Haiku) model** across 9 controls (one live run): a strict prompt passed all of them (0 PII leaks, all 22 injection attacks resisted), while a weakened prompt made the *same* model **leak PII on 50% of probes** and slip below the hallucination, reproducibility, and robustness gates — separating the two configurations without false-alarming the stronger one on this run.
 - Nine checks (133 items) with declared thresholds and champion-vs-challenger benchmarking; deterministic value-based scoring that runs with no API key, or against a live model via `USE_LLM=1`.
 
 ### [Credit-Decision PD Model — a governed, AI-augmented ML workflow](https://github.com/Nicole-Tu97/credit-risk-ml-sample)
@@ -43,18 +43,18 @@ An end-to-end probability-of-default model built with the validation, fairness c
 
 | Model | AUC | Gini | KS | Brier | PSI |
 |---|--:|--:|--:|--:|--:|
-| Logistic regression (baseline) | 0.754 | 0.509 | 0.397 | 0.192 | 0.001 |
-| **HistGradientBoosting + isotonic (champion)** | **0.784** | **0.569** | **0.429** | **0.134** | **0.001** |
+| Logistic regression (baseline) | 0.749 | 0.499 | 0.396 | 0.143 | 0.001 |
+| **HistGradientBoosting + isotonic (champion)** | **0.781** | **0.563** | **0.428** | **0.135** | **0.002** |
 
-- Leakage-safe feature engineering (23 → 36 features), CV-tuned, isotonic-calibrated — 5-fold CV AUC **0.787** ≈ test **0.784** (small train–test gap): a *validated* result, not an overfit one.
-- Fairness across sex / age / education · SHAP explainability · documented failure modes.
+- Leakage-safe features — 32 model inputs (13 engineered + 19 raw credit-history; the 4 protected demographics are excluded from the model), CV-tuned, isotonic-calibrated — 5-fold CV AUC **0.787** ≈ test **0.781**: a *validated* result, not an overfit one.
+- Disparate-impact fairness audit across sex / age / education / marital status (attributes the model never sees) · SHAP explainability · documented failure modes.
 - LLM adverse-action layer constrained to the model's **real** risk drivers; governance mapped to **OSFI E-23** and **FCAC**.
 
 ## 💼 Experience
 
 **Quantitative Researcher, Data Science · Deepcoin** · 2024 – Present
 - Built market-neutral systematic strategies end to end (research, backtesting, live trading), including a ~$2M basis-arbitrage book at **2.93 Sharpe** with 0.88% max drawdown, plus on-chain rate-derivative and prediction-market strategies.
-- Owned the ML defense layer of a live ETH/USDT market-making system: trained and deployed directional-drift, order-cancellation, and spread-widening classifiers (**0.81–0.84 AUC**; 84.9% capture of toxic flow).
+- Built and validated the ML layer of an ETH/USDT market-making system: directional-drift, order-cancellation, and spread-widening classifiers (**0.81–0.84 AUC**; 84.9% toxic-flow capture), out-of-sample tested before deployment.
 - Built the surrounding real-time infrastructure (data pipelines, backtesting framework, risk controls, P&L and exposure monitoring) and an **LLM-driven correlation-mining engine** over ~2,000 markets (~98× speedup).
 
 **Quantitative Analyst, Data Science · CITIC Securities** · 2020 – 2023
