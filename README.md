@@ -2,7 +2,7 @@
 
 **Data Scientist · Machine Learning in Finance**
 
-I'm a data scientist with about five years in finance, and I really enjoy this work. I build and validate machine-learning models and own them end to end: framing the problem, building the model, checking it holds up in production, and seeing it drive real decisions. I also work with deep learning (PyTorch), and lately I've been getting into reinforcement learning.
+I'm a data scientist with five years in finance. I build and validate machine-learning models and take them through to production — I care less about a good offline score than about whether a model still holds up once it's making real decisions. I also work with deep learning in PyTorch.
 
 📍 Vancouver, Canada · open to Toronto & remote
 
@@ -13,10 +13,10 @@ I'm a data scientist with about five years in finance, and I really enjoy this w
 ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 
 ## 🚀 What I do
-- Build & validate **ML models end-to-end** — data → features → modeling → validation → deployment
-- Use **data science to solve financial problems** — from risk modeling to optimizing profit
-- Build the **risk controls and real-time trade monitoring** around live models — exposure, P&L, and drawdown safeguards
-- Care about **impact and rigor** — models that are accurate, calibrated, fair, and defensible, not just built
+- Build and validate ML models end to end, from data and features to a deployed, monitored model
+- Use data science on financial problems: risk modeling, forecasting, and trading strategy
+- Build the risk controls and monitoring around live models (limits, exposure, P&L, safeguards)
+- Care as much about validation, calibration, and fairness as about the model itself
 
 ## 🛠️ Skills
 - **Languages** — Python, SQL, R, C++, Rust, Go, Java
@@ -24,7 +24,6 @@ I'm a data scientist with about five years in finance, and I really enjoy this w
 - **Deep learning** — PyTorch, neural networks
 - **Data** — PostgreSQL, MySQL, IBM Db2, Redshift, MongoDB · Matplotlib, Plotly, Jupyter
 - **Focus areas** — predictive & risk modeling, model validation & governance, feature engineering, time-series, LLM/AI tooling
-- **Currently exploring** — reinforcement learning (RL)
 - **Certificates** — AWS Certified Cloud Practitioner · IBM Data Science Professional
 
 ## 📌 Featured Projects
@@ -32,7 +31,7 @@ I'm a data scientist with about five years in finance, and I really enjoy this w
 ### [LLM Validation Harness — challenging a grounded banking assistant](https://github.com/Nicole-Tu97/llm-validation-harness)
 `Python · LLM · model risk`
 
-A reproducible harness that validates an LLM assistant the way a second-line model-risk team would: hallucination and unsupported-number detection, abstention, reproducibility, paraphrase robustness, confidence calibration (ECE), persona-swap fairness, PII-leak probes, and prompt-injection attacks — each with a declared pass/fail threshold, benchmarked champion-vs-challenger, ending in a written validation report.
+A reproducible harness that validates an LLM assistant against nine model-risk checks: hallucination and unsupported-number detection, abstention, reproducibility, paraphrase robustness, confidence calibration (ECE), persona-swap fairness, PII-leak probes, and prompt-injection attacks — each with a declared pass/fail threshold, benchmarked champion-vs-challenger, and a written validation report.
 
 - **Validated a real Claude (Haiku) model** across 9 controls: a strict grounding prompt cleared all of them (0 PII leaks, all 22 injection attacks resisted), while a weakened prompt made the *same* model **leak PII on 50% of probes** and slip below the hallucination, reproducibility, and robustness gates — the harness catches real, prompt-induced risk *without* false-alarming a good model.
 - Nine checks (133 items) with declared thresholds and champion-vs-challenger benchmarking; deterministic value-based scoring that runs with no API key, or against a live model via `USE_LLM=1`.
