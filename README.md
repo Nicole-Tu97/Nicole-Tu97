@@ -34,7 +34,7 @@ I'm a data scientist with about five years in finance, and I really enjoy this w
 
 A reproducible harness that validates an LLM assistant the way a second-line model-risk team would: hallucination and unsupported-number detection, abstention, reproducibility, paraphrase robustness, confidence calibration (ECE), persona-swap fairness, PII-leak probes, and prompt-injection attacks — each with a declared pass/fail threshold, benchmarked champion-vs-challenger, ending in a written validation report.
 
-- Caught the unguarded configuration hallucinating **70%** of out-of-scope questions, **leaking PII on 40%** of probes, complying with **1 in 3** injection attacks, and quoting **different fees to different personas**.
+- Across 133 test items, caught the unguarded configuration hallucinating **60%** of out-of-scope questions, **leaking PII on 62%** of probes, and answering **7 of 12** persona pairs inconsistently — and flagged a zero-tolerance PII leak even in the guarded configuration.
 - Fully deterministic (hash-seeded, byte-identical runs) and runs with no API key; the same code validates a real Claude model with `USE_LLM=1`.
 
 ### [Credit-Decision PD Model — a governed, AI-augmented ML workflow](https://github.com/Nicole-Tu97/credit-risk-ml-sample)
