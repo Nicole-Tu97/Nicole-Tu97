@@ -14,6 +14,7 @@ I'm a data scientist with five years in finance. I build and validate machine-le
 
 ## 🚀 What I do
 - Build and validate ML models end to end, from data and features to a deployed, monitored model
+- Design experiments and use causal inference to answer product and business questions
 - Use data science on financial problems: risk modeling, forecasting, and trading strategy
 - Build the risk controls and monitoring around live models (limits, exposure, P&L, safeguards)
 - Care as much about validation, calibration, and fairness as about the model itself
@@ -22,11 +23,22 @@ I'm a data scientist with five years in finance. I build and validate machine-le
 - **Languages** — Python, SQL, R, C++, Rust, Go, Java
 - **ML / modeling** — scikit-learn, XGBoost, LightGBM, statsmodels, SciPy, SHAP, CVXPY, Numba, NumPy, pandas, Polars
 - **Deep learning** — PyTorch, neural networks
-- **Data** — PostgreSQL, MySQL, IBM Db2, Redshift, MongoDB · Matplotlib, Plotly, Jupyter
-- **Focus areas** — predictive & risk modeling, model validation & governance, feature engineering, time-series, LLM/AI tooling
+- **Experimentation & causal inference** — A/B test design, power/MDE, CUPED, multiplicity correction, uplift/CATE modeling, propensity weighting, difference-in-differences
+- **Data** — dbt, DuckDB, PostgreSQL, MySQL, IBM Db2, Redshift, MongoDB · Matplotlib, Plotly, Jupyter
+- **Focus areas** — experimentation & causal inference, predictive & risk modeling, model validation & governance, feature engineering, time-series, LLM/AI tooling
 - **Certificates** — AWS Certified Cloud Practitioner · IBM Data Science Professional
 
 ## 📌 Featured Projects
+
+### [Crypto Product Experiment — A/B test, causal inference, ship decision](https://github.com/Nicole-Tu97/crypto-experiment-analysis)
+`Python · SQL · dbt/DuckDB · experimentation · causal inference`
+
+Does a crypto auto-invest ("recurring buy") feature actually cause new clients to activate and stick? Raw events → a dbt/DuckDB modelling layer → a full randomized-experiment analysis → two non-randomized causal cross-checks → a one-page ship recommendation. Runs offline from one command; the data is synthetic, so **every estimate is checked against known ground truth**.
+
+- **Experiment done properly, not just significantly:** pre-registered primary/co-primary/guardrail metrics with a declared MDE and decision rule; SRM and covariate-balance checks before trusting anything; CUPED variance reduction (reporting variance *and* CI-width reduction separately, because they are not the same number); Bonferroni and Benjamini–Hochberg multiplicity control; a simulation showing interim peeking inflates false positives from 5% to ~20%.
+- **Causal inference where you can't randomize:** inverse-propensity weighting cuts a self-selection-inflated **+22.8pp** naive retention gap to **+13.2pp** (true value +13.1pp), cross-checked by difference-in-differences. With only 12 clusters, clustering *shrank* the SE — the opposite of the textbook result and a small-cluster warning sign — so a **wild cluster bootstrap** is what the conclusion rests on.
+- **Targeting and communication:** a T-learner uplift model sorts users out-of-sample (**+11.2pp vs +3.2pp**, top vs bottom half); the stakeholder summary is LLM-drafted but every number is mechanically checked against the computed metrics, and any figure that can't be traced back rejects the whole draft.
+- Verified rather than asserted: 500-run Monte Carlo showing **95.4% CI coverage**, 23 dbt data tests, and 20 Python tests including dbt-vs-plain-SQL parity and report-vs-metrics consistency.
 
 ### [LLM Validation Harness — challenging a grounded banking assistant](https://github.com/Nicole-Tu97/llm-validation-harness)
 `Python · LLM · model risk`
@@ -52,9 +64,9 @@ An end-to-end probability-of-default model built with the validation, fairness c
 
 ## 💼 Experience
 
-**Quantitative Researcher, Data Science · Deepcoin** · 2024 – Present
+**Data Scientist, Quantitative Research · Deepcoin** · 2024 – Present
 
-**Quantitative Analyst, Data Science · CITIC Securities** · 2020 – 2023
+**Quantitative Analyst · CITIC Securities** · 2020 – 2023
 
 ## 🎓 Education
 - **MSc, Data Science** — University of British Columbia · 2023–2024
