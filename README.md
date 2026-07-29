@@ -13,8 +13,9 @@ I'm a data scientist with five years in finance. I build and validate machine-le
 ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 
 ## 🚀 What I do
-- Build and validate ML models end to end, from data and features to a deployed, monitored model
+- Own the data layer day to day: SQL data models, pipelines, and the data-quality checks under them
 - Design experiments and use causal inference to answer product and business questions
+- Build and validate ML models end to end, from data and features to a deployed, monitored model
 - Use data science on financial problems: risk modeling, forecasting, and trading strategy
 - Build the risk controls and monitoring around live models (limits, exposure, P&L, safeguards)
 - Care as much about validation, calibration, and fairness as about the model itself
@@ -24,8 +25,9 @@ I'm a data scientist with five years in finance. I build and validate machine-le
 - **ML / modeling** — scikit-learn, XGBoost, LightGBM, statsmodels, SciPy, SHAP, CVXPY, Numba, NumPy, pandas, Polars
 - **Deep learning** — PyTorch, neural networks
 - **Experimentation & causal inference** — A/B test design, power/MDE, CUPED, multiplicity correction, uplift/CATE modeling, propensity weighting, difference-in-differences
-- **Data** — dbt, DuckDB, PostgreSQL, MySQL, IBM Db2, Redshift, MongoDB · Matplotlib, Plotly, Jupyter
-- **Focus areas** — experimentation & causal inference, predictive & risk modeling, model validation & governance, feature engineering, time-series, LLM/AI tooling
+- **Data modelling & pipelines** — dbt (staging → marts, data tests), SQL data modelling, ELT/real-time pipelines, data-quality checks · DuckDB, PostgreSQL, MySQL, IBM Db2, Redshift, MongoDB
+- **Analytics** — Matplotlib, Plotly, Jupyter, dashboards and automated reporting
+- **Focus areas** — data modelling & pipelines, experimentation & causal inference, predictive & risk modeling, model validation & governance, feature engineering, time-series, LLM/AI tooling
 - **Certificates** — AWS Certified Cloud Practitioner · IBM Data Science Professional
 
 ## 📌 Featured Projects
@@ -38,7 +40,7 @@ Does a crypto auto-invest ("recurring buy") feature actually cause new clients t
 - **Experiment done properly, not just significantly:** pre-registered primary/co-primary/guardrail metrics with a declared MDE and decision rule; SRM and covariate-balance checks before trusting anything; CUPED variance reduction (reporting variance *and* CI-width reduction separately, because they are not the same number); Bonferroni and Benjamini–Hochberg multiplicity control; a simulation showing interim peeking inflates false positives from 5% to ~20%.
 - **Causal inference where you can't randomize:** inverse-propensity weighting cuts a self-selection-inflated **+22.8pp** naive retention gap to **+13.2pp** (true value +13.1pp), cross-checked by difference-in-differences. With only 12 clusters, clustering *shrank* the SE — the opposite of the textbook result and a small-cluster warning sign — so a **wild cluster bootstrap** is what the conclusion rests on. A 400-panel simulation confirms the DiD estimator is unbiased and that the classical interval, not the clustered one, is the one that covers.
 - **Validated on a real experiment, not just my own data:** the same helpers run against the Hillstrom e-mail experiment (64k real customers, genuinely randomized). Using the experimental contrast as the benchmark, I deliberately confound the sample and then try to recover the answer — **IPW removes 90.8% of the confounding bias on average and 73.2% at worst across 30 draws**.
-- **A null result, reported as one:** uplift targeting **failed** on real data (top-vs-bottom separation +1.04pp, p = 0.37). Splitting on the strongest single covariate also failed, and real segment effects span only 6.15–9.90pp — so it's the data, not the model. That also means the 3.5× separation on synthetic data exists because the generator was written to contain it. Worth saying out loud rather than leaving for a reader to find.
+- **A null result, reported as one:** uplift targeting **failed** on real data (top-vs-bottom separation +1.04pp, p = 0.365). Splitting on the strongest single covariate also failed, and real segment effects span only 6.15–9.90pp — so it's the data, not the model. That also means the 3.5× separation on synthetic data exists because the generator was written to contain it. Worth saying out loud rather than leaving for a reader to find.
 - Verified rather than asserted: 500-run Monte Carlo showing **95.4% CI coverage**, 23 dbt data tests, 25 Python tests (dbt-vs-plain-SQL parity, report-vs-metrics consistency), and CI on every push. The stakeholder summary is LLM-drafted behind a mechanical guardrail that rejects any number not traceable to the computed metrics.
 
 ### [LLM Validation Harness — challenging a grounded banking assistant](https://github.com/Nicole-Tu97/llm-validation-harness)
