@@ -32,17 +32,6 @@ I'm a data scientist with five years in finance. I build and validate machine-le
 
 ## 📌 Featured Projects
 
-### [Crypto Product Experiment — A/B test, causal inference, ship decision](https://github.com/Nicole-Tu97/crypto-experiment-analysis)
-`Python · SQL · dbt/DuckDB · experimentation · causal inference`
-
-Does a crypto auto-invest ("recurring buy") feature actually cause new clients to activate and stick? Raw events → a dbt/DuckDB modelling layer → a full randomized-experiment analysis → two non-randomized causal cross-checks → a one-page ship recommendation. Runs offline from one command; the data is synthetic, so **every estimate is checked against known ground truth** — and the same estimators are then re-run on a **real** experiment to show they aren't tuned to my own generator.
-
-- **Experiment done properly, not just significantly:** pre-registered primary/co-primary/guardrail metrics with a declared MDE and decision rule; SRM and covariate-balance checks before trusting anything; CUPED variance reduction (reporting variance *and* CI-width reduction separately, because they are not the same number); Bonferroni and Benjamini–Hochberg multiplicity control; a simulation showing interim peeking inflates false positives from 5% to ~20%.
-- **Causal inference where you can't randomize:** inverse-propensity weighting cuts a self-selection-inflated **+22.8pp** naive retention gap to **+13.2pp** (true value +13.1pp), cross-checked by difference-in-differences. With only 12 clusters, clustering *shrank* the SE — the opposite of the textbook result and a small-cluster warning sign — so a **wild cluster bootstrap** is what the conclusion rests on. A 400-panel simulation confirms the DiD estimator is unbiased and that the classical interval, not the clustered one, is the one that covers.
-- **Validated on a real experiment, not just my own data:** the same helpers run against the Hillstrom e-mail experiment (64k real customers, genuinely randomized). Using the experimental contrast as the benchmark, I deliberately confound the sample and then try to recover the answer — **IPW removes 90.8% of the confounding bias on average and 73.2% at worst across 30 draws**.
-- **A null result, reported as one:** uplift targeting **failed** on real data (top-vs-bottom separation +1.04pp, p = 0.365). Splitting on the strongest single covariate also failed, and real segment effects span only 6.15–9.90pp — so it's the data, not the model. That also means the 3.5× separation on synthetic data exists because the generator was written to contain it. Worth saying out loud rather than leaving for a reader to find.
-- Verified rather than asserted: 500-run Monte Carlo showing **95.4% CI coverage**, 23 dbt data tests, 25 Python tests (dbt-vs-plain-SQL parity, report-vs-metrics consistency), and CI on every push. The stakeholder summary is LLM-drafted behind a mechanical guardrail that rejects any number not traceable to the computed metrics.
-
 ### [LLM Validation Harness — challenging a grounded banking assistant](https://github.com/Nicole-Tu97/llm-validation-harness)
 `Python · LLM · model risk`
 
@@ -62,8 +51,20 @@ An end-to-end probability-of-default model built with the validation, fairness c
 | **HistGradientBoosting + isotonic (champion)** | **0.781** | **0.563** | **0.428** | **0.135** | **0.002** |
 
 - Leakage-safe features — 32 model inputs (13 engineered + 19 raw credit-history; the 4 protected demographics are excluded from the model), CV-tuned, isotonic-calibrated — 5-fold CV AUC **0.787** ≈ test **0.781**: a *validated* result, not an overfit one.
+- **Measured the ceiling rather than asserting one** — the hold-out AUC carries a 95% bootstrap interval of **±0.012**, so the 0.032 gap to the baseline is ~2.7× the noise; a 5×-wider hyperparameter search, random forest, extra trees and a 3-model stack all land in 0.775–0.780, and six `PAY_*` columns alone reach 0.739. The binding constraint is the feature set, not the model — so the 13 engineered features are justified on explainability, not on a discrimination lift that sits inside the noise.
 - Disparate-impact fairness audit across sex / age / education / marital status (attributes the model never sees) · SHAP explainability · documented failure modes.
 - LLM adverse-action layer constrained to the model's **real** risk drivers; governance mapped to **OSFI E-23** and **FCAC**.
+
+### [Crypto Product Experiment — A/B test, causal inference, ship decision](https://github.com/Nicole-Tu97/crypto-experiment-analysis)
+`Python · SQL · dbt/DuckDB · experimentation · causal inference`
+
+Does a crypto auto-invest ("recurring buy") feature actually cause new clients to activate and stick? Raw events → a dbt/DuckDB modelling layer → a full randomized-experiment analysis → two non-randomized causal cross-checks → a one-page ship recommendation. Runs offline from one command; the data is synthetic, so **every estimate is checked against known ground truth** — and the same estimators are then re-run on a **real** experiment to show they aren't tuned to my own generator.
+
+- **Experiment done properly, not just significantly:** pre-registered primary/co-primary/guardrail metrics with a declared MDE and decision rule; SRM and covariate-balance checks before trusting anything; CUPED variance reduction (reporting variance *and* CI-width reduction separately, because they are not the same number); Bonferroni and Benjamini–Hochberg multiplicity control; a simulation showing interim peeking inflates false positives from 5% to ~20%.
+- **Causal inference where you can't randomize:** inverse-propensity weighting cuts a self-selection-inflated **+22.8pp** naive retention gap to **+13.2pp** (true value +13.1pp), cross-checked by difference-in-differences. With only 12 clusters, clustering *shrank* the SE — the opposite of the textbook result and a small-cluster warning sign — so a **wild cluster bootstrap** is what the conclusion rests on. A 400-panel simulation confirms the DiD estimator is unbiased and that the classical interval, not the clustered one, is the one that covers.
+- **Validated on a real experiment, not just my own data:** the same helpers run against the Hillstrom e-mail experiment (64k real customers, genuinely randomized). Using the experimental contrast as the benchmark, I deliberately confound the sample and then try to recover the answer — **IPW removes 90.8% of the confounding bias on average and 73.2% at worst across 30 draws**.
+- **A null result, reported as one:** uplift targeting **failed** on real data (top-vs-bottom separation +1.04pp, p = 0.365). Splitting on the strongest single covariate also failed, and real segment effects span only 6.15–9.90pp — so it's the data, not the model. That also means the 3.5× separation on synthetic data exists because the generator was written to contain it. Worth saying out loud rather than leaving for a reader to find.
+- Verified rather than asserted: 500-run Monte Carlo showing **95.4% CI coverage**, 23 dbt data tests, 25 Python tests (dbt-vs-plain-SQL parity, report-vs-metrics consistency), and CI on every push. The stakeholder summary is LLM-drafted behind a mechanical guardrail that rejects any number not traceable to the computed metrics.
 
 ## 💼 Experience
 
